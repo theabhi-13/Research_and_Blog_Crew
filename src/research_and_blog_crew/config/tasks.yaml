@@ -1,0 +1,18 @@
+report_task:
+  description: >
+    Based on the input topic : {topic}, generate a detailed repot including all the 
+    latest facts and future trends in a structured way. The report should be around 
+    1000 words.
+  expected_output: >
+    A detailed report with 1000 words of the most relevant information about {topic}
+  agent: report_generator
+
+blog_writer_task:
+  description: >
+    Based on the input topic : {topic}, generate a detailed blog post including all the 
+    latest facts and future trends in a structured way. The blog post should be around 
+    1000 words.
+  expected_output: >
+    A detailed blog post with 1000 words of the most relevant information about {topic}
+    Formatted as markdown without '```'
+  agent: blog_writer
