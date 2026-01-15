@@ -20,7 +20,7 @@ crewai install
 ```
 ### Customizing
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+**Add your `GROQ_API_KEY` into the `.env` file**
 
 - Modify `src/research_and_blog_crew/config/agents.yaml` to define your agents
 - Modify `src/research_and_blog_crew/config/tasks.yaml` to define your tasks
@@ -43,12 +43,4 @@ This example, unmodified, will run the create a `report.md` file with the output
 
 The research_and_blog_crew Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
-## Support
 
-For support, questions, or feedback regarding the ResearchAndBlogCrew Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
